@@ -1,0 +1,62 @@
+@import './normalize.css';
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  line-height: 22px;
+  color: rgb(239, 239, 239);
+  background-color: black;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(239, 239, 239);
+  border-bottom: 1px solid #FFE81F;
+  margin-bottom: 20px;
+}
+
+​img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+td {
+  border: 1px solid;
+  padding: 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.container {
+  margin: 0 30px;
+}
+
+.logo {
+  font-family: 'Audiowide', cursive;
+  ;
+  color: #FFE81F;
+  background-color: black;
+  text-align: center;
+  padding-top: 20px;
+}
