@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const fetchFilms = () => axios.get(`http://swapi.dev/api/films`)
+export const fetchFilms = () => axios.get(`https://swapi.dev/api/films`)
 export const fetchFilmInfo = (id) => axios.get(`https://swapi.dev/api/films/${id}/`)
 export const fetchPeople = () => axios.get(`https://swapi.dev/api/people`)
 export const fetchCharacter = (id) => axios.get(`https://swapi.dev/api/people/${id}`) 
