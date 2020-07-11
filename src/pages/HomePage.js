@@ -17,8 +17,7 @@ class HomePage extends Component {
   }
 
   getAllFilms = () => {
-    // fetchFilms()
-    axios.get(`https://swapi.dev/api/films`)
+    fetchFilms()
       .then(({ data }) => {
         this.setState({
           allFilms: [...data.results],
